@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url("../../assets/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form > h2 {
+  color: white;
+}
+
+.passwordDiv {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-top: -15px;
+  margin-bottom: -25px;
+}
+
+.passwordDiv > input {
+  width: 15px;
+  cursor: pointer;
+}
+
+.email,
+.password {
+  width: 212px;
+  height: 30px;
+  padding: 0px 20px;
+}
+
+.submit {
+  /* padding: 10px 20px; */
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: #4e7cff;
+  font-size: 16px;
+  color: white;
+}
+
+.errorMsg {
+  text-align: center;
+  color: red;
+  font-size: 16px;
+}
+
+.gender {
+  width: 252px;
+  height: 30px;
+  padding: 0px 20px;
+  border: none;
+}
+
+.gender:focus {
+  outline: none;
+}
+
+#inputForm {
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+#inputForm h3 {
+  color: #5d589d;
+}
+
+#inputForm button {
+  height: 40px;
+}
+
+.resendOtp {
+  display: flex;
+}
+
+.attempt {
+  margin-top: -30px;
+}

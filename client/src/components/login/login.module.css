@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url("../../assets/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  width: 240px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form h2 {
+  color: white;
+}
+
+#inputForm {
+  padding-bottom: 50px;
+  gap: 20px;
+  width: 300px;
+}
+
+#inputForm h3 {
+  color: #5d589d;
+}
+
+#inputForm button {
+  height: 40px;
+}
+
+.resendOtp {
+  display: flex;
+}
+
+.attempt {
+  margin-top: -30px;
+}
